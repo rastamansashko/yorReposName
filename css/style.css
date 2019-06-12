@@ -1,0 +1,146 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.btn {
+	font: 20px Arial, sans-serif;
+	background-color: #fa3a5e;
+	padding: 20px;
+	text-transform: uppercase;
+	color: white;
+	width: 350px;
+	border: 1px solid white;
+	border-radius: 4px;
+}
+
+h2{
+	font: 20px/30px Arial, sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h5 {
+	font: 15px/20px Arial, sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.title {
+	font: 35px/35px Arial, sans-serif;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.description {
+	font: 15px/20px Arial, sans-serif;
+	padding-bottom: 30px;
+}
+
+#home {
+	background: url("../images/main-bg.jpg") no-repeat center bottom;
+	background-size: cover;
+}
+
+section{
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+#home h1 {
+	font: 45px/60px Arial, sans-serif;
+	padding-top: 200px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+#home .btn {
+	margin-bottom: 40px;
+}
+
+.team-item{
+	padding: 20px;
+}
+
+.team-item img{
+	width: 80%;
+}
+@media screen and (max-width: 767px){
+	.team-item img{
+		width: 60%;
+	}	
+}
+.social {
+	width: 190px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.social:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.social-item {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 20px;
+	background: url("../images/sprite.png");
+	cursor: pointer;
+}
+
+
+.social-item:last-child{
+	margin-right: 0;
+}
+
+.facebook{
+	background-position: -642px -205px;
+}
+
+.google{
+	background-position: -165px -205px;
+}
+
+.twitter{
+	background-position: -233px -205px;
+}
+
+.facebook:hover{
+	background-position: -642px -390px;
+}
+
+.google:hover{
+	background-position: -165px -390px;
+}
+
+.twitter:hover{
+	background-position: -233px -390px;
+}
+
+#footer{
+	background-color: #242758;
+}
+
+#footer h2{
+	color: white;
+}
+
+#footer h2 a{
+	color: #797eb9;
+}
